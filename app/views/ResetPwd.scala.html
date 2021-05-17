@@ -1,0 +1,86 @@
+<html>
+  <head>
+
+    <style>
+  body {
+    padding-top: 80px;
+    text-align: center;
+    font-family: monaco, monospace;
+
+    background-size: cover;
+  }
+  h1, h2 {
+    display: inline-block;
+    background: #fff;
+  }
+  h1 {
+    font-size: 30px
+  }
+  h2 {
+    font-size: 20px;
+  }
+  .books {
+    border:1px solid #C0C0C0;
+    border-collapse:collapse;
+    padding:5px;
+  }
+  .books th {
+    border:1px solid #C0C0C0;
+    padding:5px;
+    background:#F0F0F0;
+  }
+  .books td {
+    border:1px solid #C0C0C0;
+    padding:5px;
+  }
+
+</style>
+  </head>
+<form class="form-horizontal">
+<fieldset>
+
+<!-- Form Name -->
+<legend>Reset Password</legend>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="username">User Name</label>  
+  <div class="col-md-4">
+  <input id="username" name="username" type="text" placeholder="Enter User name" class="form-control input-md">
+    
+  </div>
+</div>
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="securityquestion">Security Question</label>
+  <div class="col-md-4">
+    <select id="securityquestion" name="securityquestion" class="form-control">
+      <option value="Mother's Maiden name?">Mother's Maiden name?</option>
+      <option value="Name of pet?">Name of pet?</option>
+    </select>
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="securityanswer">Answer</label>  
+  <div class="col-md-4">
+  <input id="securityanswer" name="securityanswer" type="text" placeholder="" class="form-control input-md">
+    
+  </div>
+</div>
+
+<!-- Button (Double) -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="submit"></label>
+  <div class="col-md-8">
+    <button id="submit" name="submit" class="btn btn-default">Submit</button>
+    <button id="Reset" name="Reset" class="btn btn-default">Reset</button>
+  </div>
+</div>
+
+</fieldset>
+</form>
+
+</html>
